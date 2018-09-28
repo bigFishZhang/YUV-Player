@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/bigfish/mine/YUV-Player/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/bigfish/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/bigfish/mine/YUV-Player/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/bigfish/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/bigfish/mine/YUV-Player/app/.externalNativeBuild/cmake/release/x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/bigfish/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/bigfish/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/bigfish/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/bigfish/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/bigfish/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/bigfish/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/bigfish/mine/YUV-Player/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/bigfish/mine/YUV-Player/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/bigfish/mine/YUV-Player/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "3423037402938008595"
+		}
+	},
+	"toolchains" : 
+	{
+		"3423037402938008595" : 
+		{
+			"cCompilerExecutable" : "/Users/bigfish/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/bigfish/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
