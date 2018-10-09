@@ -177,8 +177,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/Users/bigfish/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-strip
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/bigfish/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Users/bigfish/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -196,7 +196,7 @@ Project_SOURCE_DIR:STATIC=/Users/bigfish/mine/YUV-Player/app
 log-lib:FILEPATH=/Users/bigfish/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-arm/usr/lib/liblog.so
 
 //Dependencies for the target
-native-lib_LIB_DEPENDS:STATIC=general;/Users/bigfish/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-arm/usr/lib/liblog.so;
+native-lib_LIB_DEPENDS:STATIC=general;GLESv2;general;EGL;general;android;general;/Users/bigfish/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-arm/usr/lib/liblog.so;
 
 
 ########################
