@@ -31,7 +31,7 @@ public class YUVPlayer extends GLSurfaceView implements  Runnable,SurfaceHolder.
     @Override
     public void run() {//传GLSurfaceView地址进去
 
-    Open("/sdcard/test.yuv",getHolder().getSurface());
+    Open("/sdcard/outCat.yuv",getHolder().getSurface());
 
     }
 
